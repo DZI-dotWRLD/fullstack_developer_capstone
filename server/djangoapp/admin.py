@@ -10,10 +10,14 @@ class CarModelInline(admin.TabularInline):
     extra = 0
 
 # CarModelAdmin class
+
+
 class CarModelAdmin(admin.ModelAdmin):
     list_display = ("make", "name", "year", "Type")
 
 # CarMakeAdmin class with CarModelInline
+
+
 class CarMakeAdmin(admin.ModelAdmin):
     inlines = [CarModelInline]
     list_display = ("name", "description")

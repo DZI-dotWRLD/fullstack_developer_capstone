@@ -1,0 +1,13 @@
+{
+  "esversion": 8,
+  "node": true,
+  "undef": true,
+  "globals": {
+    "require": false,
+    "console": false,
+    "exports": false,
+    "module": false,
+    "process": false,
+    "__dirname": false
+  }
+}
